@@ -10,7 +10,7 @@
     { "src": "/drinks", "dest": "/db.json?food=drinks" },
     { "src": "/fried-chicken", "dest": "/db.json?food=fried-chicken" },
     { "src": "/ice-cream", "dest": "/db.json?food=ice-cream" },
-    { "src": "/pizzas", "dest": "/db.json/pizzas" },
+    { "src": "/pizzas", "dest": "/db.json?pizzas" },
     { "src": "/porks", "dest": "/db.json?food=porks" },
     { "src": "/sandwiches", "dest": "/db.json?food=sandwiches" },
     { "src": "/sausages", "dest": "/db.json?food=sausages" },
