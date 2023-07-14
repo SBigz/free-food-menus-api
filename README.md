@@ -27,14 +27,14 @@ https://github.com/typicode/json-server#routes
 **🍞 Using:**
 
 ```
-https://free-food-menus-api-production.up.railway.app/<params>
+https://free-food-menus-api-two.vercel.app/<params>
 ```
 
 **🍕 Examples:**
 
 ```js
 // Use fetch (Copy and paste to browser console to see result!)
-fetch('https://free-food-menus-api-production.up.railway.app/burgers')
+fetch('https://free-food-menus-api-two.vercel.app/burgers')
   .then((response) => response.json())
   .then((data) => console.log(data));
 
@@ -57,7 +57,7 @@ fetch('https://free-food-menus-api-production.up.railway.app/burgers')
 
 ```js
 // Get all data of existing dishes
-/our-foods
+/all
 
 // Pagination
 /pagination
