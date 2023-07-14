@@ -84,7 +84,7 @@ fetch('https://free-food-menus-api-two.vercel.app/burgers')
 // And if you have suggestions for any other menus or dishes, please create a new issue.
 // I will do my best to add them as soon as possible. Enjoy!!
 ```
-**💠 Available parameters**
+**💠 Disclaimer**
 
 Please note that I am not the original author of this API. I have forked it and am maintaining this version because the original API went down.
 
