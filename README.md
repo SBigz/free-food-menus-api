@@ -1,6 +1,7 @@
 ## **Introduce 🍺**
 
-APIs free with nearly 700 dishes and 15 menus. You can interact with them simply!
+Welcome to the forked version of the Free Food Menus API! This resource grants you access to an extensive range of food-related information for free. It includes approximately 700 dishes and 15 distinct menus. Engaging with the API is incredibly simple!
+
 <br />
 
 ## **Our best menu 🍔**
@@ -14,23 +15,16 @@ APIs free with nearly 700 dishes and 15 menus. You can interact with them simply
   <br />
   <br />
 
-## **How to use? 🕵️**
+**🍞 Usage:**
 
-Because this api is built on top of **Json Server** you can use methods like **sort, title_like, q**, etc. 👏
-
-**🍩 Read more:**
-
-```
-https://github.com/typicode/json-server#routes
-```
-
-**🍞 Using:**
-
+Navigate to the following URL, replacing `<params>` with the appropriate endpoint:
 ```
 https://free-food-menus-api-two.vercel.app/<params>
 ```
 
 **🍕 Examples:**
+
+Here's how you might fetch data about burgers from the API:
 
 ```js
 // Use fetch (Copy and paste to browser console to see result!)
@@ -53,7 +47,7 @@ fetch('https://free-food-menus-api-two.vercel.app/burgers')
 ]
 ```
 
-**🍣 Params bonus**
+**🍣 Additional parameters**
 
 ```js
 // Get all data of existing dishes
@@ -62,7 +56,7 @@ fetch('https://free-food-menus-api-two.vercel.app/burgers')
 // Pagination
 /pagination
 
-// And something look like
+// And the resulting data might look like this
 {
   bbqs: 59,
   best-foods: 60,
@@ -70,7 +64,7 @@ fetch('https://free-food-menus-api-two.vercel.app/burgers')
 }
 ```
 
-**🍻 Usable params**
+**🍻 Available parameters**
 
 ```js
 /bbqs
@@ -87,6 +81,11 @@ fetch('https://free-food-menus-api-two.vercel.app/burgers')
 /sandwiches
 /sausages
 /steaks
-// And if you like any other menus or dishes, let's create a new issue
-// I will try to add them as soon as possible. Enjoy!!
+// And if you have suggestions for any other menus or dishes, please create a new issue.
+// I will do my best to add them as soon as possible. Enjoy!!
 ```
+**💠 Available parameters**
+
+Please note that I am not the original author of this API. I have forked it and am maintaining this version because the original API went down.
+
+The original author of the API is [igdev116](https://github.com/igdev116), and you can find the original repository at [free-food-menus-api](https://github.com/igdev116/free-food-menus-api).
