@@ -15,6 +15,6 @@
     { "src": "/sandwiches", "dest": "/db.json?food=sandwiches" },
     { "src": "/sausages", "dest": "/db.json?food=sausages" },
     { "src": "/steaks", "dest": "/db.json?food=steaks" },
-    { "src": "/*", "dest": "/db.json" }
+    { "src": "/all", "dest": "/db.json" }
   ]
 }
