@@ -86,6 +86,6 @@ fetch('https://free-food-menus-api-two.vercel.app/burgers')
 ```
 **💠 Disclaimer**
 
-Please note that I am not the original author of this API. I have forked it and am maintaining this version because the original API went down.
+Please note that I am not the original author of this API. I have forked it and I am maintaining this version to ensure it works properly with Vercel, as the original API is no longer available.
 
 The original author of the API is [igdev116](https://github.com/igdev116), and you can find the original repository at [free-food-menus-api](https://github.com/igdev116/free-food-menus-api).
