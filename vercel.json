@@ -1,9 +1,20 @@
 {
   "version": 2,
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/server.js"
-    }
+    { "src": "/bbqs", "dest": "/db.json?food=bbqs" },
+    { "src": "/best-foods", "dest": "/db.json?food=best-foods" },
+    { "src": "/breads", "dest": "/db.json?food=breads" },
+    { "src": "/burgers", "dest": "/db.json?food=burgers" },
+    { "src": "/chocolates", "dest": "/db.json?food=chocolates" },
+    { "src": "/desserts", "dest": "/db.json?food=desserts" },
+    { "src": "/drinks", "dest": "/db.json?food=drinks" },
+    { "src": "/fried-chicken", "dest": "/db.json?food=fried-chicken" },
+    { "src": "/ice-cream", "dest": "/db.json?food=ice-cream" },
+    { "src": "/pizzas", "dest": "/db.json?food=pizzas" },
+    { "src": "/porks", "dest": "/db.json?food=porks" },
+    { "src": "/sandwiches", "dest": "/db.json?food=sandwiches" },
+    { "src": "/sausages", "dest": "/db.json?food=sausages" },
+    { "src": "/steaks", "dest": "/db.json?food=steaks" },
+    { "src": "/*", "dest": "/404" }
   ]
 }
