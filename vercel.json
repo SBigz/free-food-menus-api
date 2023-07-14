@@ -15,6 +15,7 @@
     { "src": "/sandwiches", "dest": "/menus/sandwiches.json" },
     { "src": "/sausages", "dest": "/menus/sausages.json" },
     { "src": "/steaks", "dest": "/menus/steaks.json" },
-    { "src": "/all", "dest": "/db.json" }
+    { "src": "/all", "dest": "/db.json" },
+    { "src": "/pagination", "dest": "/pagination.json" }
   ]
 }
